@@ -324,6 +324,7 @@ function ShortcutMapper() {
         // Iterate through our shortcuts data and build a table for results
         var html = "<table><tbody>";
         var numResults = 0;
+        console.log(this.selectedAppData.contexts)
         var numContexts = Object.keys(this.selectedAppData.contexts).length;
         for (var contextName in this.selectedAppData.contexts) {
             if (!this.selectedAppData.contexts.hasOwnProperty(contextName)) {
