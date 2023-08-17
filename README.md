@@ -6,8 +6,6 @@ http://mkapal.github.io/lfs-shortcut-mapper/
 
 The goal of this project is to map out application keyboard shortcuts onto a virtual keyboard, making it easy to find and learn new shortcuts. The shortcut data is scraped from online documentation to reduce error and to keep the data easy to update with newer versions.
 
-![Imgur](http://waldobronchart.github.io/ShortcutMapper/content/images/overview.gif)
-
 # Overview
 
 This project is directly hosted on GitHub from the **master** branch. All changes to this branch are live.
