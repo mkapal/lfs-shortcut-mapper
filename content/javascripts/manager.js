@@ -43,7 +43,7 @@ function ShortcutMapper() {
 
         // Set Application and OS
         this.selectApplication(this.selectedApp.name);
-        this.selectedOS = this._getCurrentOS();
+        this.selectedOS = 'windows';
 
         // Init ui
         $("select.chosen-select").chosen({
@@ -263,23 +263,6 @@ function ShortcutMapper() {
         }).fail(function() {
             $("#keycontent").html("KEYBOARD NOT FOUND (Possibly doesn't exist for selected OS)");
         });
-    };
-
-    this._getCurrentOS = function() {
-        var appver = navigator.appVersion.toLowerCase();
-        if (appver.indexOf("win") !== -1) {
-            return "windows";
-        }
-        
-        if (appver.indexOf("mac") !== -1) {
-            return "mac";
-        }
-        
-        if (appver.indexOf("linux") !== -1) {
-            return "linux";
-        }
-        
-        return "windows";
     };
 
 

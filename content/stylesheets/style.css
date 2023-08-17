@@ -23,6 +23,10 @@ body {
     width: 100%;
 }
 
+#mainwrap a {
+    color: #151515;
+}
+
 /** Header *******************************************/
 
 header {
@@ -982,18 +986,18 @@ div#keyboard button.mod-other.mod-active {
     text-align: center;
 }
 
-#footer span {
+#footer p {
     font-style: normal;
     font-weight: 300;
     font-size: 0.7em;
     line-height: 1em;
 }
 
-#footer span a {
+#footer p a {
     font-weight: 400;
     color: #151515;
 }
-#footer span a:hover {
+#footer p a:hover {
     color: #0089ff;
 }
 
