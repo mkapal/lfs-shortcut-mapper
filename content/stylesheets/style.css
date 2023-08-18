@@ -125,7 +125,7 @@ header p {
 #othercontent {
     position: relative;
     margin-top: 40px;
-    min-height: 250px;
+    min-height: 80px;
 }
 
 #keyinfo {
