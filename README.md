@@ -2,9 +2,9 @@ ShortcutMapper for Live for Speed
 =================================
 
 This is a keyboard shortcuts visualiser for [Live for Speed](https://www.lfs.net) hosted here on GitHub:
-http://mkapal.github.io/lfs-shortcut-mapper/
+http://mkapal.github.io/lfs-shortcut-mapper/. It is a fork of a general solution [ShortcutMapper](https://github.com/waldobronchart/ShortcutMapper) by [Waldo Bronchart](https://github.com/waldobronchart).
 
-The goal of this project is to map out application keyboard shortcuts onto a virtual keyboard, making it easy to find and learn new shortcuts. The shortcut data is scraped from online documentation to reduce error and to keep the data easy to update with newer versions.
+The goal of this project is to map out application keyboard shortcuts onto a virtual keyboard, making it easy to find and learn new shortcuts.
 
 # Overview
 
