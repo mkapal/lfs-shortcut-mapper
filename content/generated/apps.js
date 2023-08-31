@@ -6,8 +6,8 @@ var sitedata_apps = [
     {
         name: "Live for Speed",
         data: {
-            "0.5D": {
-                "windows": "live-for-speed_0.5d_windows.json",
+            "0.7D": {
+                "windows": "live-for-speed_0.7d_windows.json",
             },
         }
     },

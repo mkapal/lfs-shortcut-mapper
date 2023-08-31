@@ -1,6 +1,6 @@
 {
     "name" : "Live for Speed",
-    "version" : "0.5D",
+    "version" : "0.7D",
     "os" : "windows",
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
     "default_context" : "Global Context",
