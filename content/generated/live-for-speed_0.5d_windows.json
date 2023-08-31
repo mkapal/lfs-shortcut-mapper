@@ -6,6 +6,9 @@
     "default_context" : "Global Context",
     "contexts" : {
         "Chat Input" : {
+            "A" : [
+                {"name":"Select All Text", "mods":["CONTROL"]}
+            ],
             "C" : [
                 {"name":"Copy Current Text Selection", "mods":["CONTROL"]}
             ],
@@ -15,6 +18,57 @@
             "DOWN_ARROW" : [
                 {"name":"Scroll Down In History", "mods":[]}
             ],
+            "EIGHT" : [
+                {"name":"Use Default Text Color", "mods":["CONTROL"]}
+            ],
+            "FIVE" : [
+                {"name":"Use Purple Text Color", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"Use Blue Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Use Default Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Use Purple Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Use Blue Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Use Red Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Use White Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Use Cyan Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Use Yellow Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Use Green Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Use Black Text Color", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"Use Red Text Color", "mods":["CONTROL"]}
+            ],
+            "SEVEN" : [
+                {"name":"Use White Text Color", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"Use Cyan Text Color", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"Use Yellow Text Color", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"Use Green Text Color", "mods":["CONTROL"]}
+            ],
             "UP_ARROW" : [
                 {"name":"Scroll Up In History", "mods":[]}
             ],
@@ -23,6 +77,9 @@
             ],
             "X" : [
                 {"name":"Cut Current Text Selection", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"Use Black Text Color", "mods":["CONTROL"]}
             ]
         },
         "Free View / Autocross Editor" : {
@@ -182,8 +239,27 @@
             ]
         },
         "Garage" : {
+            "B" : [
+                {"name":"Back View", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Forces View", "mods":["SHIFT"]},
+                {"name":"Front View", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Left View", "mods":[]}
+            ],
             "O" : [
                 {"name":"Output Car Info to RAF folder", "mods":["SHIFT"]}
+            ],
+            "R" : [
+                {"name":"Right View", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Drop Car", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Toggle Skin Viewer Mode", "mods":[]}
             ]
         },
         "Global Context" : {
@@ -246,7 +322,8 @@
             "F8" : [
                 {"name":"Customizable Message 17", "mods":["CONTROL"]},
                 {"name":"Customizable Message 29", "mods":["ALT"]},
-                {"name":"Customizable Message 8", "mods":[]}
+                {"name":"Customizable Message 8", "mods":[]},
+                {"name":"Toggle Network Debug", "mods":["SHIFT"]}
             ],
             "F9" : [
                 {"name":"Customizable Message 18", "mods":["CONTROL"]},
@@ -264,7 +341,7 @@
                 {"name":"Toggle Block / Unblock All Messages", "mods":["SHIFT"]}
             ],
             "P" : [
-                {"name":"Copy screenshot to clipboard", "mods":["CONTROL"]}
+                {"name":"Copy Screenshot to Clipboard", "mods":["CONTROL"]}
             ],
             "S" : [
                 {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
@@ -273,7 +350,7 @@
                 {"name":"Show Usernames instead of Player Names", "mods":["CONTROL"]}
             ],
             "T" : [
-                {"name":"Text", "mods":[]}
+                {"name":"Open Chat Window", "mods":[]}
             ]
         },
         "In Game" : {
@@ -289,6 +366,9 @@
             ],
             "COMMA" : [
                 {"name":"Less Force Feedback", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Zoom Out (TV Camera)", "mods":["CONTROL"]}
             ],
             "E" : [
                 {"name":"Right View", "mods":[]}
@@ -346,6 +426,9 @@
             "L" : [
                 {"name":"Speed Limiter", "mods":[]},
                 {"name":"Toggle Suspension View Overlay", "mods":["SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Roll Anti-clockwise (TV Camera)", "mods":["CONTROL"]}
             ],
             "M" : [
                 {"name":"Clip Mouse to Window", "mods":["CONTROL"]},
@@ -410,6 +493,9 @@
                 {"name":"Rear View", "mods":[]},
                 {"name":"Vote to Restart Race", "mods":["SHIFT"]}
             ],
+            "RIGHT_ARROW" : [
+                {"name":"Roll Clockwise (TV Camera)", "mods":["CONTROL"]}
+            ],
             "S" : [
                 {"name":"Join Spectators", "mods":["SHIFT"]},
                 {"name":"Shift Up", "mods":[]}
@@ -430,6 +516,9 @@
             "U" : [
                 {"name":"Free View / AutoX Editor", "mods":["SHIFT"]}
             ],
+            "UP_ARROW" : [
+                {"name":"Zoom In (TV Camera)", "mods":["CONTROL"]}
+            ],
             "V" : [
                 {"name":"Next Camera View", "mods":[]},
                 {"name":"Previous Camera View", "mods":["SHIFT"]}
@@ -449,15 +538,38 @@
                 {"name":"Indicators Off", "mods":[]}
             ]
         },
+        "Mods Screen" : {
+            "END" : [
+                {"name":"Scroll to Bottom", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"Refresh List of Mods", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"Scroll to Top", "mods":[]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Scroll One Screen Down", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Scroll One Screen Up", "mods":[]}
+            ]
+        },
         "Replay Controls" : {
             "COMMA" : [
                 {"name":"Previous Frame", "mods":[]}
+            ],
+            "END" : [
+                {"name":"Jump to End", "mods":[]}
             ],
             "F2" : [
                 {"name":"Reduce Replay Speed", "mods":[]}
             ],
             "F3" : [
                 {"name":"Increase Replay Speed", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"Jump to Beginning", "mods":[]}
             ],
             "NUMPAD_PERIOD" : [
                 {"name":"Next Frame", "mods":[]}

@@ -5,7 +5,7 @@
     "os": ["windows"],
     "contexts": {
         "Global Context": {
-            "Text": ["T" , ""],
+            "Open Chat Window": ["T" , ""],
             "Show Virtual Keyboard": ["Backspace" , ""],
             "Customizable Message 1": ["F1", ""],
             "Customizable Message 2": ["F2", ""],
@@ -46,12 +46,13 @@
             "Reload Current Language File (except English)": ["Shift + F5", ""],
             "Change Game Language (Cycle Through List)": ["Shift + Ctrl + F5", ""],
             "Save Screenshot in LFS-DIR/data/shots": ["Ctrl + S", ""],
-            "Copy screenshot to clipboard": ["Ctrl + P", ""],
+            "Copy Screenshot to Clipboard": ["Ctrl + P", ""],
             "Toggle Between Full Screen and Windowed Mode": ["Shift + F4", ""],
             "Set Screen Resolution to 1024x768 (default, can be customized)": ["Shift + F9", ""],
             "Full Screen Mode at Desktop Resolution": ["Shift + F10", ""],
             "Borderless Window (Single Monitor)": ["Shift + F11", ""],
-            "Borderless Window (Multiple Monitors)": ["Shift + F12", ""]
+            "Borderless Window (Multiple Monitors)": ["Shift + F12", ""],
+            "Toggle Network Debug": ["Shift + F8" , ""]
         },
         "In Game": {
             "Toggle Escape Menu": ["Esc", ""],
@@ -96,6 +97,10 @@
             "Display Names (Off / Connection List / Names Over Cars)": ["N", ""],
             "Next Camera View": ["V", ""],
             "Previous Camera View": ["Shift + V", ""],
+            "Zoom In (TV Camera)": ["Ctrl + Up Arrow", ""],
+            "Zoom Out (TV Camera)": ["Ctrl + Down Arrow", ""],
+            "Roll Anti-clockwise (TV Camera)": ["Ctrl + Left Arrow", ""],
+            "Roll Clockwise (TV Camera)": ["Ctrl + Right Arrow", ""],
             "Free View / AutoX Editor": ["Shift + U", ""],
             "Turn Off All Screen Info": ["Shift + F", ""],
             "Mirrors Mode": ["Shift + M", ""],
@@ -170,26 +175,51 @@
             "Switch to View In Slot 8": ["Ctrl + 8", ""],
             "Switch to View In Slot 9": ["Ctrl + 9", ""],
             "Next Stored View Slot": ["V", ""],
-            "Previous Stored View Slot": ["Shift + V", ""],
-            "": ["", ""]
+            "Previous Stored View Slot": ["Shift + V", ""]
         },
         "Replay Controls": {
             "Reduce Replay Speed": ["F2", ""],
             "Increase Replay Speed": ["F3", ""],
             "Pause Replay": ["Space", ""],
             "Next Frame": [".", ""],
-            "Previous Frame": [",", ""]
+            "Previous Frame": [",", ""],
+            "Jump to Beginning": ["Home", ""],
+            "Jump to End": ["End", ""]
         },
         "Chat Input": {
             "Copy Current Text Selection": ["Ctrl + C", ""],
             "Paste Current Text Selection": ["Ctrl + V", ""],
             "Cut Current Text Selection": ["Ctrl + X", ""],
+            "Select All Text": ["Ctrl + A", ""],
             "Scroll Up In History": ["Up Arrow", ""],
             "Scroll Down In History": ["Down Arrow", ""],
-            "Color Selection (hold)": ["Ctrl", ""]
+            "Color Selection (hold)": ["Ctrl", ""],
+            "Use Black Text Color": ["Ctrl + 0", ""],
+            "Use Red Text Color": ["Ctrl + 1", ""],
+            "Use Green Text Color": ["Ctrl + 2", ""],
+            "Use Yellow Text Color": ["Ctrl + 3", ""],
+            "Use Blue Text Color": ["Ctrl + 4", ""],
+            "Use Purple Text Color": ["Ctrl + 5", ""],
+            "Use Cyan Text Color": ["Ctrl + 6", ""],
+            "Use White Text Color": ["Ctrl + 7", ""],
+            "Use Default Text Color": ["Ctrl + 8", ""]
         },
         "Garage": {
-            "Output Car Info to RAF folder": ["Shift + O", ""]
+            "Output Car Info to RAF folder": ["Shift + O", ""],
+            "Toggle Skin Viewer Mode": ["V", ""],
+            "Drop Car": ["Space", ""],
+            "Left View": ["L", ""],
+            "Right View": ["R", ""],
+            "Front View": ["F", ""],
+            "Back View": ["B", ""],
+            "Forces View": ["Shift + F", ""]
+        },
+        "Mods Screen": {
+          "Scroll to Top": ["Home", ""],
+          "Scroll to Bottom": ["End", ""],
+          "Scroll One Screen Up": ["Page Up", ""],
+          "Scroll One Screen Down": ["Page Down", ""],
+          "Refresh List of Mods": ["F5", ""]
         }
     }
 }
