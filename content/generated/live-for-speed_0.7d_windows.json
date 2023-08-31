@@ -269,6 +269,12 @@
             "BACKSPACE" : [
                 {"name":"Show Virtual Keyboard", "mods":[]}
             ],
+            "END" : [
+                {"name":"Scroll to Bottom of a List", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Go Back to Previous Screen / Close Dialog", "mods":[]}
+            ],
             "F1" : [
                 {"name":"Customizable Message 1", "mods":[]},
                 {"name":"Customizable Message 10", "mods":["CONTROL"]},
@@ -282,12 +288,12 @@
             "F11" : [
                 {"name":"Borderless Window (Single Monitor)", "mods":["SHIFT"]},
                 {"name":"Customizable Message 20", "mods":["CONTROL"]},
-                {"name":"Customizable Message 32", "mods":["ALT"]}
+                {"name":"Toggle VR Mode (Customizable)", "mods":["ALT"]}
             ],
             "F12" : [
                 {"name":"Borderless Window (Multiple Monitors)", "mods":["SHIFT"]},
                 {"name":"Customizable Message 21", "mods":["CONTROL"]},
-                {"name":"Customizable Message 33", "mods":["ALT"]}
+                {"name":"Reset VR Position (Customizable)", "mods":["ALT"]}
             ],
             "F2" : [
                 {"name":"Customizable Message 11", "mods":["CONTROL"]},
@@ -301,15 +307,15 @@
             ],
             "F4" : [
                 {"name":"Customizable Message 13", "mods":["CONTROL"]},
-                {"name":"Customizable Message 25", "mods":["ALT"]},
                 {"name":"Customizable Message 4", "mods":[]},
+                {"name":"Exit Game (Customizable)", "mods":["ALT"]},
                 {"name":"Toggle Between Full Screen and Windowed Mode", "mods":["SHIFT"]}
             ],
             "F5" : [
+                {"name":"(Refresh a List (Customizable)", "mods":[]},
                 {"name":"Change Game Language (Cycle Through List)", "mods":["CONTROL", "SHIFT"]},
                 {"name":"Customizable Message 14", "mods":["CONTROL"]},
                 {"name":"Customizable Message 26", "mods":["ALT"]},
-                {"name":"Customizable Message 5", "mods":[]},
                 {"name":"Reload Current Language File (except English)", "mods":["SHIFT"]}
             ],
             "F6" : [
@@ -337,20 +343,37 @@
                 {"name":"Clear Recent Messages", "mods":["CONTROL"]},
                 {"name":"Toggle Message History", "mods":[]}
             ],
+            "HOME" : [
+                {"name":"Scroll to Top of a List", "mods":[]}
+            ],
             "MINUS" : [
-                {"name":"Toggle Block / Unblock All Messages", "mods":["SHIFT"]}
+                {"name":"Toggle Block / Unblock All Chat Messages", "mods":[]},
+                {"name":"Toggle Block / Unblock All Messages Including Game Messages", "mods":["SHIFT"]}
             ],
             "NUMPAD_MINUS" : [
-                {"name":"Toggle Block / Unblock All Messages", "mods":["SHIFT"]}
+                {"name":"Toggle Block / Unblock All Chat Messages", "mods":[]},
+                {"name":"Toggle Block / Unblock All Messages Including Game Messages", "mods":["SHIFT"]}
+            ],
+            "NUMPAD_SLASH" : [
+                {"name":"Open Chat Window With Slash (useful for entering commands)", "mods":[]}
             ],
             "P" : [
                 {"name":"Copy Screenshot to Clipboard", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Scroll One Screen Down in a List", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Scroll One Screen Up in a List", "mods":[]}
             ],
             "S" : [
                 {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
             ],
             "SHIFT" : [
                 {"name":"Show Usernames instead of Player Names", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"Open Chat Window With Slash (useful for entering commands)", "mods":[]}
             ],
             "T" : [
                 {"name":"Open Chat Window", "mods":[]}
@@ -457,7 +480,7 @@
                 {"name":"Hazard Lights", "mods":[]}
             ],
             "NUMPAD_ONE" : [
-                {"name":"Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
+                {"name":"Save & Instant Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
             ],
             "NUMPAD_PERIOD" : [
                 {"name":"More Force Feedback", "mods":[]}
@@ -482,7 +505,7 @@
                 {"name":"Traction Control", "mods":[]}
             ],
             "ONE" : [
-                {"name":"Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
+                {"name":"Save & Instant Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
             ],
             "P" : [
                 {"name":"Enter Garage", "mods":["SHIFT"]},
@@ -549,23 +572,6 @@
             ],
             "ZERO" : [
                 {"name":"Indicators Off", "mods":[]}
-            ]
-        },
-        "Mods Screen" : {
-            "END" : [
-                {"name":"Scroll to Bottom", "mods":[]}
-            ],
-            "F5" : [
-                {"name":"Refresh List of Mods", "mods":[]}
-            ],
-            "HOME" : [
-                {"name":"Scroll to Top", "mods":[]}
-            ],
-            "PAGE_DOWN" : [
-                {"name":"Scroll One Screen Down", "mods":[]}
-            ],
-            "PAGE_UP" : [
-                {"name":"Scroll One Screen Up", "mods":[]}
             ]
         },
         "Replay Controls" : {
