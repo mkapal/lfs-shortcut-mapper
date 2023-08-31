@@ -230,6 +230,9 @@
                 {"name":"Cut Object", "mods":["CONTROL"]},
                 {"name":"Exit Free View", "mods":[]}
             ],
+            "Y" : [
+                {"name":"Redo Last Action", "mods":["CONTROL"]}
+            ],
             "Z" : [
                 {"name":"Undo Last Action", "mods":["CONTROL"]}
             ],
@@ -478,6 +481,9 @@
                 {"name":"Show Options", "mods":["SHIFT"]},
                 {"name":"Traction Control", "mods":[]}
             ],
+            "ONE" : [
+                {"name":"Watch Replay", "mods":[]}
+            ],
             "P" : [
                 {"name":"Enter Garage", "mods":["SHIFT"]},
                 {"name":"Pause (Only Single Player)", "mods":[]}
@@ -512,6 +518,12 @@
             "TAB" : [
                 {"name":"Change View to Next Car (Race Order)", "mods":[]},
                 {"name":"Toggle Race Results", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"Turn Lights On / Off", "mods":[]}
+            ],
+            "TWO" : [
+                {"name":"Save Replay", "mods":[]}
             ],
             "U" : [
                 {"name":"Free View / AutoX Editor", "mods":["SHIFT"]}
