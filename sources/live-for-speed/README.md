@@ -1,20 +1,11 @@
-Adobe Lightroom
+Live for Speed
 ==================================
 
-### /raw
-
-The raw data was found here:
-http://helpx.adobe.com/lightroom/help/keyboard-shortcuts.html
-
-To convert raw to intermediate run the following script:
-`python raw_to_intermediate.py -o intermediate/OUTPUT_FILE_NAME.json raw/SOURCE_FILE_NAME`
-
+The raw data can be found [LFS Manual - Keys](https://en.lfsmanual.net/wiki/Keys) page or `docs/Keys.pdf` file located in the installation folder of Live for Speed.
 
 ### /intermediate
 
-Contains .json data files that were generated from shortcuts scraped from sources in **/raw**
-
-Once converted, the files were hand-edited to make some necessary fixes that just couldn't be automated.
+Contains .json data files that were written manually using the raw sources.
 
 To export this intermediate format to the web application run the following script:
-`python utils/export_intermediate_data.py sources/adobe-lightroom/intermediate/XXX.json`
+`python utils/export_intermediate_data.py sources/live-for-speed/intermediate/XXX.json`
