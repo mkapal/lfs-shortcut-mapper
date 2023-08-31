@@ -548,6 +548,10 @@ div#keyboard button .label {
     text-shadow: 0px 1px 0px rgb(255,255,255);
 }
 
+div#keyboard .keyitems {
+    background: inherit;
+}
+
 div#keyboard button .shortcut {
     display: block;
     position: absolute;
@@ -567,6 +571,26 @@ div#keyboard button .shortcut {
     text-overflow: clip;
     overflow: hidden;
     word-wrap: break-word;
+}
+
+div#keyboard button:hover .shortcut {
+    width: 250%;
+    max-width: 150px;
+    overflow: visible;
+    background: inherit;
+    max-height: none;
+    font-size: 14px;
+    line-height: 16px;
+    word-wrap: normal;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: auto;
+    z-index: 2;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: 1px solid #333;
 }
 
 
