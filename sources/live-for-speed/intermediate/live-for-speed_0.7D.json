@@ -91,7 +91,7 @@
             "Show Options": ["Shift + O", ""],
 
             "Change View to Next Car (Race Order)": ["Tab", ""],
-            "Change View to Previous Car (Race Order)": ["", "Shift + Tab"],
+            "Change View to Previous Car (Race Order)": ["Shift + Tab", ""],
             "Return View to Own Car": ["Home", ""],
             "Toggle Race Results": ["Ctrl + Tab", ""],
             "Display Names (Off / Connection List / Names Over Cars)": ["N", ""],
@@ -109,7 +109,7 @@
             "Zoom In": ["5", ""],
             "Zoom Out": ["6", ""],
 
-            "Watch Replay": ["1", ""],
+            "Watch Replay (Single Player) / Cast Vote (Multiplayer)": ["1", ""],
             "Save Replay": ["2", ""],
 
             "Less Force Feedback": [",", ""],
