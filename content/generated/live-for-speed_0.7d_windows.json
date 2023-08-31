@@ -457,7 +457,7 @@
                 {"name":"Hazard Lights", "mods":[]}
             ],
             "NUMPAD_ONE" : [
-                {"name":"Watch Replay", "mods":[]}
+                {"name":"Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
             ],
             "NUMPAD_PERIOD" : [
                 {"name":"More Force Feedback", "mods":[]}
@@ -482,7 +482,7 @@
                 {"name":"Traction Control", "mods":[]}
             ],
             "ONE" : [
-                {"name":"Watch Replay", "mods":[]}
+                {"name":"Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
             ],
             "P" : [
                 {"name":"Enter Garage", "mods":["SHIFT"]},
@@ -517,6 +517,7 @@
             ],
             "TAB" : [
                 {"name":"Change View to Next Car (Race Order)", "mods":[]},
+                {"name":"Change View to Previous Car (Race Order)", "mods":["SHIFT"]},
                 {"name":"Toggle Race Results", "mods":["CONTROL"]}
             ],
             "THREE" : [
