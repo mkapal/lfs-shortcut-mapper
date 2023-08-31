@@ -69,7 +69,7 @@
             "Speed Limiter": ["L", ""],
             "Traction Control": ["O", ""],
             "Ignition": ["I", ""],
-            "Turn Lights On / Off": ["Numpad 3", ""],
+            "Turn Lights On / Off": ["3", ""],
             "Left Indicator": ["7", ""],
             "Right Indicator": ["8", ""],
             "Hazard Lights": ["9", ""],
@@ -109,8 +109,8 @@
             "Zoom In": ["5", ""],
             "Zoom Out": ["6", ""],
 
-            "Watch Replay": ["Numpad 1", ""],
-            "Save Replay": ["Numpad 2", ""],
+            "Watch Replay": ["1", ""],
+            "Save Replay": ["2", ""],
 
             "Less Force Feedback": [",", ""],
             "More Force Feedback": [".", ""],
@@ -150,7 +150,7 @@
             "Cut Object": ["Ctrl + X", ""],
             "Paste Object at Cursor Position": ["Ctrl + V", ""],
             "Undo Last Action": ["Ctrl + Z", ""],
-            "Redo Last Action": ["Ctrl + Z", ""],
+            "Redo Last Action": ["Ctrl + Y", ""],
             "Move Object Up": ["Page Up", ""],
             "Move Object Down": ["Page Down", ""],
             "Clear Selection": ["C", ""],
