@@ -224,7 +224,7 @@ nav .inputgroup .rightfield .chosen-single {
     margin-left: 1px;
 }
 
-#application_select { width: 160px; }
+#application_select { width: 180px; }
 #version_select { width: 75px; }
 #context_select { width: 260px; }
 #keyboardtype_select { width: 175px; }
@@ -571,6 +571,10 @@ div#keyboard button .shortcut {
     text-overflow: clip;
     overflow: hidden;
     word-wrap: break-word;
+}
+
+div#keyboard button.hasitems:hover {
+    outline: 1px solid #000;
 }
 
 div#keyboard button:hover .shortcut {
