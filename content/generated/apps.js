@@ -11,4 +11,12 @@ var sitedata_apps = [
             },
         }
     },
+    {
+        name: "Live for Speed Editor",
+        data: {
+            "0.7C": {
+                "windows": "live-for-speed-editor_0.7c_windows.json",
+            },
+        }
+    },
 ];

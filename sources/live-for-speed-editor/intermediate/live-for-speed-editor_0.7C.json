@@ -1,0 +1,68 @@
+{
+    "name": "Live for Speed Editor",
+    "version": "0.7C",
+    "default_context": "Global Context",
+    "os": ["windows"],
+    "contexts": {
+        "Global Context": {
+            "Toggle Message History": ["H" , ""],
+            "Clear Recent Messages": ["Ctrl + H", ""],
+            "Save Screenshot in LFS-DIR/data/shots": ["Ctrl + S", ""],
+            "Copy Screenshot to Clipboard": ["Ctrl + P", ""],
+            "Toggle Between Full Screen and Windowed Mode": ["Shift + F4", ""],
+            "Set Screen Resolution to 1024x768 (default, can be customized)": ["Shift + F9", ""],
+            "Full Screen Mode at Desktop Resolution": ["Shift + F10", ""],
+            "Borderless Window (Single Monitor)": ["Shift + F11", ""],
+            "Borderless Window (Multiple Monitors)": ["Shift + F12", ""],
+            "Options": ["Shift + O", ""],
+            "Perspective 3D View": ["P", ""],
+            "Front View": ["F", ""],
+            "Back View": ["B", ""],
+            "Left View": ["L", ""],
+            "Right View": ["R", ""],
+            "Top View": ["T", ""],
+            "Underside View": ["U", ""],
+            "Toggle Top and Perspective Views": ["V", ""],
+            "Rotate View 1 Degree Left": ["Ctrl + Left Arrow", ""],
+            "Rotate View 1 Degree Right": ["Ctrl + Right Arrow", ""],
+            "Rotate View 1 Degree Up": ["Ctrl + Up Arrow", ""],
+            "Rotate View 1 Degree Down": ["Ctrl + Down Arrow", ""],
+            "Rotate View 5 Degrees Left": ["Shift + Left Arrow", ""],
+            "Rotate View 5 Degrees Right": ["Shift + Right Arrow", ""],
+            "Rotate 2D View 5 Degrees Up": ["Shift + Up Arrow", ""],
+            "Rotate 2D View 5 Degrees Down": ["Shift + Down Arrow", ""],
+            "Rotate 2D View 30 Degrees Left": ["Ctrl + Shift + Left Arrow", ""],
+            "Rotate 2D View 30 Degrees Right": ["Ctrl + Shift + Right Arrow", ""],
+            "Rotate 2D View 30 Degrees Up": ["Ctrl + Shift + Up Arrow", ""],
+            "Rotate 2D View 30 Degrees Down": ["Ctrl + Shift + Down Arrow", ""]
+        },
+        "Vehicle Editor": {
+            "View Object": ["O", ""],
+            "Animation Editor": ["A", ""],
+            "Edit Model": ["E", ""],
+            "Reset Car": ["Space", ""],
+            "Show Center of Gravity": ["G", ""],
+            "Include Driver": ["D", ""],
+            "Include Fuel": ["I", ""],
+            "Toggle Suspension Diagram": ["Shift + L", ""],
+            "Special Draw Mode": ["S", ""],
+            "Exit": ["Esc or Shift + X", ""]
+        },
+        "Modeller": {
+            "Invert Model": ["I", ""],
+            "Toggle Shadow": ["S", ""],
+            "Delete (triangles, points, subobject)": ["Delete", ""],
+            "Undo": ["Ctrl + Z", ""],
+            "Select All (triangles, points)": ["Ctrl + A", ""],
+            "Enter Mapping Mode": ["Shift + M", ""],
+            "Enter Cutout Mode": ["Shift + C", ""],
+            "Select Main Object": ["M", ""],
+            "Clear Selection": ["C", ""],
+            "Hide All Buttons": ["Shift + F", ""],
+            "Unhide Buttons / Refresh Object": ["Space", ""],
+            "Unhide Buttons / Exit Modeller": ["Esc", ""],
+            "Fuse Points (only in build mode)": ["X", ""]
+
+        }
+    }
+}
