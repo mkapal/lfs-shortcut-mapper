@@ -1,0 +1,225 @@
+{
+    "name" : "Live for Speed Editor",
+    "version" : "0.7E",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "B" : [
+                {"name":"Back View", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Rotate 2D View 30 Degrees Down", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Rotate 2D View 5 Degrees Down", "mods":["SHIFT"]},
+                {"name":"Rotate View 1 Degree Down", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"Front View", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"Full Screen Mode at Desktop Resolution", "mods":["SHIFT"]}
+            ],
+            "F11" : [
+                {"name":"Borderless Window (Single Monitor)", "mods":["SHIFT"]}
+            ],
+            "F12" : [
+                {"name":"Borderless Window (Multiple Monitors)", "mods":["SHIFT"]}
+            ],
+            "F4" : [
+                {"name":"Toggle Between Full Screen and Windowed Mode", "mods":["SHIFT"]}
+            ],
+            "F9" : [
+                {"name":"Set Screen Resolution to 1024x768 (default, can be customized)", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Clear Recent Messages", "mods":["CONTROL"]},
+                {"name":"Toggle Message History", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Left View", "mods":[]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Rotate 2D View 30 Degrees Left", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Rotate View 1 Degree Left", "mods":["CONTROL"]},
+                {"name":"Rotate View 5 Degrees Left", "mods":["SHIFT"]}
+            ],
+            "O" : [
+                {"name":"Options", "mods":["SHIFT"]}
+            ],
+            "P" : [
+                {"name":"Copy Screenshot to Clipboard", "mods":["CONTROL"]},
+                {"name":"Perspective 3D View", "mods":[]}
+            ],
+            "R" : [
+                {"name":"Right View", "mods":[]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Rotate 2D View 30 Degrees Right", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Rotate View 1 Degree Right", "mods":["CONTROL"]},
+                {"name":"Rotate View 5 Degrees Right", "mods":["SHIFT"]}
+            ],
+            "S" : [
+                {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"Top View", "mods":[]}
+            ],
+            "U" : [
+                {"name":"Underside View", "mods":[]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Rotate 2D View 30 Degrees Up", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Rotate 2D View 5 Degrees Up", "mods":["SHIFT"]},
+                {"name":"Rotate View 1 Degree Up", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Toggle Top and Perspective Views", "mods":[]}
+            ]
+        },
+        "Modeller" : {
+            "A" : [
+                {"name":"Select All (triangles, points)", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"Clear Selection", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Duplicate", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"Delete (triangles, points, subobject)", "mods":[]}
+            ],
+            "E" : [
+                {"name":"Extrude Selected Points (only in point mode)", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"View Mode", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Unhide Buttons / Exit Modeller", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Flip Selected Triangles (tri mode) / Flip Connected Triangles (point mode)", "mods":["CONTROL"]},
+                {"name":"Hide All Buttons", "mods":["SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"Texture Mapping Mode", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"Build Mode", "mods":[]}
+            ],
+            "H" : [
+                {"name":"Hide Selected Points or Triangles", "mods":[]},
+                {"name":"Hide Unelected Points or Triangles", "mods":["SHIFT"]},
+                {"name":"Unhide All Points or Triangles", "mods":["ALT"]}
+            ],
+            "I" : [
+                {"name":"Invert Model", "mods":[]},
+                {"name":"Invert Selection (points or triangles)", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"Merge Points (only in build mode)", "mods":["ALT"]},
+                {"name":"Select Main Object", "mods":[]},
+                {"name":"Show/Hide Main Object", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"New", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"View Mode", "mods":[]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Texture Mapping Mode", "mods":[]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Build Mode", "mods":[]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Subobject Mode", "mods":[]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Texture Page Mode", "mods":[]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Texture Cutout Mode", "mods":[]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Point Mode", "mods":[]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Triangle Mode", "mods":[]}
+            ],
+            "O" : [
+                {"name":"Load Main Object", "mods":["SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"Subobject Mode", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Select Selection's Points / Connected Triangles", "mods":[]},
+                {"name":"Show/Hide Subobjects", "mods":["SHIFT"]}
+            ],
+            "SEVEN" : [
+                {"name":"Texture Page Mode", "mods":[]}
+            ],
+            "SIX" : [
+                {"name":"Texture Cutout Mode", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Unhide Buttons / Refresh Object", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Point Mode", "mods":[]}
+            ],
+            "TWO" : [
+                {"name":"Triangle Mode", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Undo", "mods":["CONTROL"]}
+            ]
+        },
+        "Vehicle Editor" : {
+            "A" : [
+                {"name":"Animation Editor", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Include Driver", "mods":[]}
+            ],
+            "DELETE" : [
+                {"name":"Delete (point or tube)", "mods":[]}
+            ],
+            "E" : [
+                {"name":"Edit Model", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Exit", "mods":[]}
+            ],
+            "G" : [
+                {"name":"Show Center of Gravity", "mods":[]}
+            ],
+            "I" : [
+                {"name":"Include Fuel", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Toggle Suspension Diagram", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"New Vehicle", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"Load Vehicle", "mods":["CONTROL"]},
+                {"name":"View Object", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Special Draw Mode", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Reset Car", "mods":[]}
+            ],
+            "X" : [
+                {"name":"Exit", "mods":["SHIFT"]}
+            ]
+        }
+    }
+}
