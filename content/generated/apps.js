@@ -6,6 +6,9 @@ var sitedata_apps = [
     {
         name: "Live for Speed",
         data: {
+            "0.7E": {
+                "windows": "live-for-speed_0.7e_windows.json",
+            },
             "0.7D": {
                 "windows": "live-for-speed_0.7d_windows.json",
             },
@@ -14,6 +17,9 @@ var sitedata_apps = [
     {
         name: "Live for Speed Editor",
         data: {
+            "0.7E": {
+                "windows": "live-for-speed-editor_0.7e_windows.json",
+            },
             "0.7C": {
                 "windows": "live-for-speed-editor_0.7c_windows.json",
             },
