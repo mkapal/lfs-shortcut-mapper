@@ -11,7 +11,7 @@ function Utils() {
     this.keyCodeMap = {
         8: "BACKSPACE",
         9: "TAB",
-        13: "RETURN",
+        13: "ENTER",
         16: "SHIFT",
         17: "CONTROL",
         18: "ALT",
