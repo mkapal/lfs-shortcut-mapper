@@ -10,9 +10,10 @@
                 {"name":"Back View", "mods":[]}
             ],
             "DOWN_ARROW" : [
+                {"name":"Move View Backwards", "mods":[]},
+                {"name":"Move View Down / Rotate 2D View 1 Degree Down", "mods":["CONTROL"]},
                 {"name":"Rotate 2D View 30 Degrees Down", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Rotate 2D View 5 Degrees Down", "mods":["SHIFT"]},
-                {"name":"Rotate View 1 Degree Down", "mods":["CONTROL"]}
+                {"name":"Rotate 2D View 5 Degrees Down", "mods":["SHIFT"]}
             ],
             "F" : [
                 {"name":"Front View", "mods":[]}
@@ -40,9 +41,10 @@
                 {"name":"Left View", "mods":[]}
             ],
             "LEFT_ARROW" : [
+                {"name":"Move View Left", "mods":[]},
+                {"name":"Rotate 2D View 1 Degree Left", "mods":["CONTROL"]},
                 {"name":"Rotate 2D View 30 Degrees Left", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Rotate View 1 Degree Left", "mods":["CONTROL"]},
-                {"name":"Rotate View 5 Degrees Left", "mods":["SHIFT"]}
+                {"name":"Rotate 2D View 5 Degrees Left", "mods":["SHIFT"]}
             ],
             "O" : [
                 {"name":"Options", "mods":["SHIFT"]}
@@ -55,9 +57,10 @@
                 {"name":"Right View", "mods":[]}
             ],
             "RIGHT_ARROW" : [
+                {"name":"Move View Right", "mods":[]},
+                {"name":"Rotate 2D View 1 Degree Right", "mods":["CONTROL"]},
                 {"name":"Rotate 2D View 30 Degrees Right", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Rotate View 1 Degree Right", "mods":["CONTROL"]},
-                {"name":"Rotate View 5 Degrees Right", "mods":["SHIFT"]}
+                {"name":"Rotate 2D View 5 Degrees Right", "mods":["SHIFT"]}
             ],
             "S" : [
                 {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
@@ -69,9 +72,10 @@
                 {"name":"Underside View", "mods":[]}
             ],
             "UP_ARROW" : [
+                {"name":"Move View Forwards", "mods":[]},
+                {"name":"Move View Up / Rotate 2D View 1 Degree Up", "mods":["CONTROL"]},
                 {"name":"Rotate 2D View 30 Degrees Up", "mods":["CONTROL", "SHIFT"]},
-                {"name":"Rotate 2D View 5 Degrees Up", "mods":["SHIFT"]},
-                {"name":"Rotate View 1 Degree Up", "mods":["CONTROL"]}
+                {"name":"Rotate 2D View 5 Degrees Up", "mods":["SHIFT"]}
             ],
             "V" : [
                 {"name":"Toggle Top and Perspective Views", "mods":[]}
