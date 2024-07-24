@@ -98,6 +98,7 @@
                 return;
             }
 
+            $(this.element).find(`[data-key=${keyName}]`).addClass("mod-active pressed");
             this._activateModifiers([keyName]);
         },
 
@@ -109,6 +110,7 @@
                 e.preventDefault();
             }
 
+            $(this.element).find(`[data-key=${keyName}]`).removeClass("mod-active pressed");
             this._deactivateModifiers([keyName]);
         },
 

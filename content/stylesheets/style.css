@@ -573,11 +573,13 @@ div#keyboard button .shortcut {
     word-wrap: break-word;
 }
 
-div#keyboard button.hasitems:hover {
+div#keyboard button.hasitems:hover,
+div#keyboard button.hasitems.pressed {
     outline: 1px solid #000;
 }
 
-div#keyboard button:hover .shortcut {
+div#keyboard button:hover .shortcut ,
+div#keyboard button.pressed .shortcut {
     width: 250%;
     max-width: 150px;
     overflow: visible;
