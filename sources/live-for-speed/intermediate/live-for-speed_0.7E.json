@@ -98,6 +98,9 @@
             "Join Spectators": ["Shift + S", ""],
             "Show Options": ["Shift + O", ""],
 
+            "Reduce Gameplay Speed (Single Player)": ["Shift + F2", ""],
+            "Increase Gameplay Speed (Single Player)": ["Shift + F3", ""],
+
             "Change View to Next Car (Race Order)": ["Tab", ""],
             "Change View to Previous Car (Race Order)": ["Shift + Tab", ""],
             "Return View to Own Car": ["Home", ""],

@@ -421,6 +421,12 @@
             "F12" : [
                 {"name":"Toggle Pit Instructions", "mods":[]}
             ],
+            "F2" : [
+                {"name":"Reduce Gameplay Speed (Single Player)", "mods":["SHIFT"]}
+            ],
+            "F3" : [
+                {"name":"Increase Gameplay Speed (Single Player)", "mods":["SHIFT"]}
+            ],
             "F9" : [
                 {"name":"Toggle Tyre Temperatures, Surface Loads Display and Clutch Temperature", "mods":[]}
             ],
