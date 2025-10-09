@@ -1,0 +1,618 @@
+{
+    "name" : "Live for Speed",
+    "version" : "0.7G",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Chat Input" : {
+            "A" : [
+                {"name":"Select All Text", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"Copy Current Text Selection", "mods":["CONTROL"]}
+            ],
+            "CONTROL" : [
+                {"name":"Color Selection (hold)", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Scroll Down In History", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Use Default Text Color", "mods":["CONTROL"]}
+            ],
+            "FIVE" : [
+                {"name":"Use Purple Text Color", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"Use Blue Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Use Default Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Use Purple Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Use Blue Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Use Red Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Use White Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Use Cyan Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Use Yellow Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Use Green Text Color", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Use Black Text Color", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"Use Red Text Color", "mods":["CONTROL"]}
+            ],
+            "SEVEN" : [
+                {"name":"Use White Text Color", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"Use Cyan Text Color", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"Use Yellow Text Color", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"Use Green Text Color", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Scroll Up In History", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Paste Current Text Selection", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"Cut Current Text Selection", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"Use Black Text Color", "mods":["CONTROL"]}
+            ]
+        },
+        "Free View / Autocross Editor" : {
+            "C" : [
+                {"name":"Clear Selection", "mods":[]},
+                {"name":"Copy Object", "mods":["CONTROL"]}
+            ],
+            "COMMA" : [
+                {"name":"Rotate Object Anti-clockwise", "mods":[]}
+            ],
+            "CONTROL" : [
+                {"name":"Multiple Object Selection", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Distance Measurement Tool", "mods":[]}
+            ],
+            "DELETE" : [
+                {"name":"Delete Object", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Move View Backward", "mods":[]},
+                {"name":"Move View Down", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Bigger Width of Control Object", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Store View In Slot 8", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 8", "mods":["CONTROL"]}
+            ],
+            "ESCAPE" : [
+                {"name":"Exit Free View", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"Store View In Slot 5", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 5", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"Store View In Slot 4", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 4", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Move View Left", "mods":[]},
+                {"name":"Roll View Anti-clockwise", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"Move Object to Cursor Position", "mods":[]}
+            ],
+            "NINE" : [
+                {"name":"Store View In Slot 9", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 9", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Store View In Slot 8", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 8", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Store View In Slot 5", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 5", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Store View In Slot 4", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 4", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"Store View In Slot 9", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 9", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Store View In Slot 1", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 1", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Rotate Object Clockwise", "mods":[]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Store View In Slot 7", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 7", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Store View In Slot 6", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 6", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Store View In Slot 3", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 3", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Store View In Slot 2", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 2", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Store View In Slot 0", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 0", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"Place Object And Copy", "mods":[]}
+            ],
+            "ONE" : [
+                {"name":"Store View In Slot 1", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 1", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Move Object Down", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Move Object Up", "mods":[]}
+            ],
+            "PERIOD" : [
+                {"name":"Rotate Object Clockwise", "mods":[]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Move View Right", "mods":[]},
+                {"name":"Roll View Clockwise", "mods":["CONTROL"]}
+            ],
+            "SEVEN" : [
+                {"name":"Store View In Slot 7", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 7", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"Store View In Slot 6", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 6", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"Hide / Show Buttons", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Store View In Slot 3", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 3", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"Store View In Slot 2", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 2", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Move View Forward", "mods":[]},
+                {"name":"Move View Up", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Next Stored View Slot", "mods":[]},
+                {"name":"Paste Object at Cursor Position", "mods":["CONTROL"]},
+                {"name":"Previous Stored View Slot", "mods":["SHIFT"]}
+            ],
+            "W" : [
+                {"name":"Smaller Width of Control Object", "mods":[]}
+            ],
+            "X" : [
+                {"name":"Cut Object", "mods":["CONTROL"]},
+                {"name":"Exit Free View", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"Redo Last Action", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"Undo Last Action", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"Store View In Slot 0", "mods":["SHIFT"]},
+                {"name":"Switch to View In Slot 0", "mods":["CONTROL"]}
+            ]
+        },
+        "Garage" : {
+            "B" : [
+                {"name":"Back View", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Forces View", "mods":["SHIFT"]},
+                {"name":"Front View", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Left View", "mods":[]}
+            ],
+            "O" : [
+                {"name":"Output Car Info to RAF folder", "mods":["SHIFT"]}
+            ],
+            "R" : [
+                {"name":"Right View", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Drop Car", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Toggle Skin Viewer Mode", "mods":[]}
+            ]
+        },
+        "Global Context" : {
+            "B" : [
+                {"name":"Clear All / Request to Show Local InSim Buttons", "mods":["SHIFT"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"Show Virtual Keyboard", "mods":[]}
+            ],
+            "END" : [
+                {"name":"Scroll to Bottom of a List", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Go Back to Previous Screen / Close Dialog", "mods":[]}
+            ],
+            "F1" : [
+                {"name":"Customizable Message 1", "mods":[]},
+                {"name":"Customizable Message 10", "mods":["CONTROL"]},
+                {"name":"Customizable Message 22", "mods":["ALT"]}
+            ],
+            "F10" : [
+                {"name":"Customizable Message 19", "mods":["CONTROL"]},
+                {"name":"Customizable Message 31", "mods":["ALT"]},
+                {"name":"Full Screen Mode at Desktop Resolution", "mods":["SHIFT"]}
+            ],
+            "F11" : [
+                {"name":"Borderless Window (Single Monitor)", "mods":["SHIFT"]},
+                {"name":"Customizable Message 20", "mods":["CONTROL"]},
+                {"name":"Toggle VR Mode (Customizable)", "mods":["ALT"]}
+            ],
+            "F12" : [
+                {"name":"Borderless Window (Multiple Monitors)", "mods":["SHIFT"]},
+                {"name":"Customizable Message 21", "mods":["CONTROL"]},
+                {"name":"Reset VR Position (Customizable)", "mods":["ALT"]}
+            ],
+            "F2" : [
+                {"name":"Customizable Message 11", "mods":["CONTROL"]},
+                {"name":"Customizable Message 2", "mods":[]},
+                {"name":"Customizable Message 23", "mods":["ALT"]}
+            ],
+            "F3" : [
+                {"name":"Customizable Message 12", "mods":["CONTROL"]},
+                {"name":"Customizable Message 24", "mods":["ALT"]},
+                {"name":"Customizable Message 3", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"Customizable Message 13", "mods":["CONTROL"]},
+                {"name":"Customizable Message 4", "mods":[]},
+                {"name":"Exit Game (Customizable)", "mods":["ALT"]},
+                {"name":"Toggle Between Full Screen and Windowed Mode", "mods":["SHIFT"]}
+            ],
+            "F5" : [
+                {"name":"(Refresh a List (Customizable)", "mods":[]},
+                {"name":"Change Game Language (Cycle Through List)", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Customizable Message 14", "mods":["CONTROL"]},
+                {"name":"Customizable Message 26", "mods":["ALT"]},
+                {"name":"Reload Current Language File (except English)", "mods":["SHIFT"]}
+            ],
+            "F6" : [
+                {"name":"Customizable Message 15", "mods":["CONTROL"]},
+                {"name":"Customizable Message 27", "mods":["ALT"]},
+                {"name":"Customizable Message 6", "mods":[]}
+            ],
+            "F7" : [
+                {"name":"Customizable Message 16", "mods":["CONTROL"]},
+                {"name":"Customizable Message 28", "mods":["ALT"]},
+                {"name":"Customizable Message 7", "mods":[]}
+            ],
+            "F8" : [
+                {"name":"Customizable Message 17", "mods":["CONTROL"]},
+                {"name":"Customizable Message 29", "mods":["ALT"]},
+                {"name":"Customizable Message 8", "mods":[]},
+                {"name":"Toggle Network Debug", "mods":["SHIFT"]}
+            ],
+            "F9" : [
+                {"name":"Customizable Message 18", "mods":["CONTROL"]},
+                {"name":"Customizable Message 30", "mods":["ALT"]},
+                {"name":"Set Screen Resolution to 1024x768 (default, can be customized)", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Clear Recent Messages", "mods":["CONTROL"]},
+                {"name":"Toggle Message History", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"Scroll to Top of a List", "mods":[]}
+            ],
+            "I" : [
+                {"name":"Clear All / Request to Show Host InSim Buttons", "mods":["SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"Toggle Block / Unblock All Chat Messages", "mods":[]},
+                {"name":"Toggle Block / Unblock All Messages Including Game Messages", "mods":["SHIFT"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"Toggle Block / Unblock All Chat Messages", "mods":[]},
+                {"name":"Toggle Block / Unblock All Messages Including Game Messages", "mods":["SHIFT"]}
+            ],
+            "NUMPAD_SLASH" : [
+                {"name":"Open Chat Window With Slash (useful for entering commands)", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Copy Screenshot to Clipboard", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Scroll One Screen Down in a List", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Scroll One Screen Up in a List", "mods":[]}
+            ],
+            "S" : [
+                {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
+            ],
+            "SHIFT" : [
+                {"name":"Show Usernames instead of Player Names", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"Open Chat Window With Slash (useful for entering commands)", "mods":[]}
+            ],
+            "T" : [
+                {"name":"Open Chat Window", "mods":[]}
+            ]
+        },
+        "In Game" : {
+            "A" : [
+                {"name":"Car Sound Editor", "mods":["SHIFT"]}
+            ],
+            "B" : [
+                {"name":"Horn", "mods":[]}
+            ],
+            "C" : [
+                {"name":"Clutch", "mods":[]},
+                {"name":"Reinitialise Controllers", "mods":["SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"Less Force Feedback", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Zoom Out (TV Camera)", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"Right View", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Right Indicator", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Toggle Escape Menu", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Toggle Forces View", "mods":[]},
+                {"name":"Turn Off All Screen Info", "mods":["SHIFT"]}
+            ],
+            "F1" : [
+                {"name":"Switch to Default Driver View", "mods":["SHIFT"]}
+            ],
+            "F10" : [
+                {"name":"Toggle Damage Display and Clutch Temperature", "mods":[]}
+            ],
+            "F11" : [
+                {"name":"Toggle Live Settings display", "mods":[]}
+            ],
+            "F12" : [
+                {"name":"Toggle Pit Instructions", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"Reduce Gameplay Speed (Single Player)", "mods":["SHIFT"]}
+            ],
+            "F3" : [
+                {"name":"Increase Gameplay Speed (Single Player)", "mods":["SHIFT"]}
+            ],
+            "F9" : [
+                {"name":"Toggle Tyre Temperatures, Surface Loads Display and Clutch Temperature", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"Zoom In", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"Toggle Racing Line", "mods":[]}
+            ],
+            "G" : [
+                {"name":"Flash Headlights", "mods":[]},
+                {"name":"Toggle Auto Gear Shift", "mods":["SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Change horn type", "mods":["SHIFT"]}
+            ],
+            "HOME" : [
+                {"name":"Return View to Own Car", "mods":[]}
+            ],
+            "I" : [
+                {"name":"Ignition", "mods":[]}
+            ],
+            "J" : [
+                {"name":"Join Race", "mods":["SHIFT"]}
+            ],
+            "K" : [
+                {"name":"Next Music Track", "mods":["SHIFT"]}
+            ],
+            "L" : [
+                {"name":"Speed Limiter", "mods":[]},
+                {"name":"Toggle Suspension View Overlay", "mods":["SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Roll Anti-clockwise (TV Camera)", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"Clip Mouse to Window", "mods":["CONTROL"]},
+                {"name":"Mirrors Mode", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"Display Names (Off / Connection List / Names Over Cars)", "mods":[]},
+                {"name":"Toggle Sound", "mods":["SHIFT"]}
+            ],
+            "NINE" : [
+                {"name":"Hazard Lights", "mods":[]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Right Indicator", "mods":[]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Zoom In", "mods":[]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Toggle Racing Line", "mods":[]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"Hazard Lights", "mods":[]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Save & Instant Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"More Force Feedback", "mods":[]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Left Indicator", "mods":[]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Zoom Out", "mods":[]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Sidelights / Low Beam / High Beam", "mods":["SHIFT"]},
+                {"name":"Toggle Low Beam On / Off", "mods":[]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Save Replay", "mods":[]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Indicators Off", "mods":[]}
+            ],
+            "O" : [
+                {"name":"Show Options", "mods":["SHIFT"]},
+                {"name":"Traction Control", "mods":[]}
+            ],
+            "ONE" : [
+                {"name":"Save & Instant Watch Replay (Single Player) / Cast Vote (Multiplayer)", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Enter Garage", "mods":["SHIFT"]},
+                {"name":"Pause (Only Single Player)", "mods":[]}
+            ],
+            "PERIOD" : [
+                {"name":"More Force Feedback", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"Handbrake", "mods":[]},
+                {"name":"Vote to Qualify", "mods":["SHIFT"]}
+            ],
+            "R" : [
+                {"name":"Rear View", "mods":[]},
+                {"name":"Vote to Restart Race", "mods":["SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Roll Clockwise (TV Camera)", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"Join Spectators", "mods":["SHIFT"]},
+                {"name":"Shift Up", "mods":[]}
+            ],
+            "SEVEN" : [
+                {"name":"Left Indicator", "mods":[]}
+            ],
+            "SIX" : [
+                {"name":"Zoom Out", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Reset Car", "mods":[]}
+            ],
+            "TAB" : [
+                {"name":"Change View to Next Car (Race Order)", "mods":[]},
+                {"name":"Change View to Previous Car (Race Order)", "mods":["SHIFT"]},
+                {"name":"Toggle Race Results", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"Sidelights / Low Beam / High Beam", "mods":["SHIFT"]},
+                {"name":"Toggle Low Beam On / Off", "mods":[]}
+            ],
+            "TWO" : [
+                {"name":"Save Replay", "mods":[]}
+            ],
+            "U" : [
+                {"name":"Free View / AutoX Editor", "mods":["SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Zoom In (TV Camera)", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Next Camera View", "mods":[]},
+                {"name":"Previous Camera View", "mods":["SHIFT"]}
+            ],
+            "W" : [
+                {"name":"Left View", "mods":[]},
+                {"name":"Reinitialise Sound", "mods":["SHIFT"]}
+            ],
+            "X" : [
+                {"name":"Shift Down", "mods":[]},
+                {"name":"Vote to End Race", "mods":["SHIFT"]}
+            ],
+            "Z" : [
+                {"name":"Show / Hide Mouse Cursor", "mods":["SHIFT"]}
+            ],
+            "ZERO" : [
+                {"name":"Indicators Off", "mods":[]}
+            ]
+        },
+        "Replay Controls" : {
+            "COMMA" : [
+                {"name":"Previous Frame", "mods":[]}
+            ],
+            "END" : [
+                {"name":"Jump to End", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"Reduce Replay Speed", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"Increase Replay Speed", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"Jump to Beginning", "mods":[]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"Next Frame", "mods":[]}
+            ],
+            "PERIOD" : [
+                {"name":"Next Frame", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"Pause Replay", "mods":[]}
+            ]
+        }
+    }
+}
