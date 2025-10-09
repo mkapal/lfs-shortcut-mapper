@@ -59,7 +59,9 @@
             "Full Screen Mode at Desktop Resolution": ["Shift + F10", ""],
             "Borderless Window (Single Monitor)": ["Shift + F11", ""],
             "Borderless Window (Multiple Monitors)": ["Shift + F12", ""],
-            "Toggle Network Debug": ["Shift + F8" , ""]
+            "Toggle Network Debug": ["Shift + F8" , ""],
+            "Clear All / Request to Show Host InSim Buttons": ["Shift + I", ""],
+            "Clear All / Request to Show Local InSim Buttons": ["Shift + B", ""]
         },
         "In Game": {
             "Toggle Escape Menu": ["Esc", ""],
