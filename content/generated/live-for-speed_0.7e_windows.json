@@ -266,6 +266,9 @@
             ]
         },
         "Global Context" : {
+            "B" : [
+                {"name":"Clear All / Request to Show Local InSim Buttons", "mods":["SHIFT"]}
+            ],
             "BACKSPACE" : [
                 {"name":"Show Virtual Keyboard", "mods":[]}
             ],
@@ -345,6 +348,9 @@
             ],
             "HOME" : [
                 {"name":"Scroll to Top of a List", "mods":[]}
+            ],
+            "I" : [
+                {"name":"Clear All / Request to Show Host InSim Buttons", "mods":["SHIFT"]}
             ],
             "MINUS" : [
                 {"name":"Toggle Block / Unblock All Chat Messages", "mods":[]},
