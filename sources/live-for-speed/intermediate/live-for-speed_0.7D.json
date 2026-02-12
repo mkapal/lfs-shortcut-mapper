@@ -221,7 +221,8 @@
             "Right View": ["R", ""],
             "Front View": ["F", ""],
             "Back View": ["B", ""],
-            "Forces View": ["Shift + F", ""]
+            "Forces View": ["Shift + F", ""],
+            "Load Vehicle Mod by SkinID": ["D", ""]
         }
     }
 }

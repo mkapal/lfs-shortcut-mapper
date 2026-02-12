@@ -245,6 +245,9 @@
             "B" : [
                 {"name":"Back View", "mods":[]}
             ],
+            "D" : [
+                {"name":"Load Vehicle Mod by SkinID", "mods":[]}
+            ],
             "F" : [
                 {"name":"Forces View", "mods":["SHIFT"]},
                 {"name":"Front View", "mods":[]}
