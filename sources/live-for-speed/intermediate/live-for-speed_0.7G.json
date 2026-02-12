@@ -5,7 +5,7 @@
     "os": ["windows"],
     "contexts": {
         "Global Context": {
-            "Go Back to Previous Screen / Close Dialog": ["Esc", ""],
+            "Go Back to Previous Screen / Close Dialog": ["Esc or X or Q", ""],
             "Open Chat Window": ["T" , ""],
             "Open Chat Window With Slash (useful for entering commands)": ["/" , ""],
             "Scroll to Top of a List": ["Home", ""],

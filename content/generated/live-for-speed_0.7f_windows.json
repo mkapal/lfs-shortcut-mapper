@@ -372,6 +372,9 @@
             "PAGE_UP" : [
                 {"name":"Scroll One Screen Up in a List", "mods":[]}
             ],
+            "Q" : [
+                {"name":"Go Back to Previous Screen / Close Dialog", "mods":[]}
+            ],
             "S" : [
                 {"name":"Save Screenshot in LFS-DIR/data/shots", "mods":["CONTROL"]}
             ],
@@ -383,6 +386,9 @@
             ],
             "T" : [
                 {"name":"Open Chat Window", "mods":[]}
+            ],
+            "X" : [
+                {"name":"Go Back to Previous Screen / Close Dialog", "mods":[]}
             ]
         },
         "In Game" : {
