@@ -541,6 +541,7 @@ div#keyboard button .label {
     left: 0;
     width: 48px;
     padding: 2px 0 0 4px;
+    font-family: sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #6b6b6b;

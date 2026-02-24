@@ -22,7 +22,7 @@
             // Initialize Buttons and insert all context data
             var buttons = this.element.find("button");
             buttons.each(function() {
-                var html = "<span class='label'>" + $(this).text() + "</span><b></b>";
+                var html = "<kbd class='label'>" + $(this).text() + "</kbd>";
                 var keyName = $(this).data("key");
                 var hasShortcut = false;
 
