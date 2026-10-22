@@ -38,7 +38,7 @@ function ShortcutMapper() {
         // Find all elements we're going to be using a lot
         this.elemAppSelect = $("#application_select");
         this.elemVersionSelect = $("#version_select");
-        this.elemContextSelect = $("#context_select");
+        this.elemContextTabs = $("#context_tabs");
         this.elemKeyboardTypeSelect = $("#keyboardtype_select");
 
         // Set Application and OS
@@ -67,9 +67,8 @@ function ShortcutMapper() {
             self.selectedVersion = $(this).val();
             self._fetchAppKeydataAndUpdate();
         });
-        this.elemContextSelect.on("change", function() {
-            self.selectedContext = $(this).val();
-            self.elemKeyboard.keyboard("option", "context", self.selectedContext);
+        this.elemContextTabs.on("click", "button", function() {
+            self.selectContext($(this).attr("data-context"));
         });
         $("nav button.os-radiobutton").click(function () {
             $("nav button.os-radiobutton").removeClass("checked");
@@ -153,8 +152,7 @@ function ShortcutMapper() {
         }
 
         this.selectedContext = name;
-        this.elemContextSelect.val(name);
-        this.elemContextSelect.trigger("chosen:updated");
+        this._markActiveContextTab();
         this.elemKeyboard.data("keyboard").switchContext(this.selectedContext);
     };
 
@@ -180,7 +178,27 @@ function ShortcutMapper() {
 
     this._updateContextOptions = function(selected) {
         // the datasheet contains all contexts and shortcuts for the application
-        this.selectedContext = this._setSelectOptions(this.elemContextSelect, selected, Object.keys(this.selectedAppData.contexts));
+        var names = Object.keys(this.selectedAppData.contexts);
+        this.selectedContext = names.indexOf(selected) >= 0 ? selected : names[0];
+
+        this.elemContextTabs.empty();
+        for (var i=0; i<names.length; i++) {
+            $("<button>", {
+                type: "button",
+                role: "tab",
+                "data-context": names[i],
+                text: names[i]
+            }).appendTo(this.elemContextTabs);
+        }
+        this._markActiveContextTab();
+    };
+
+    this._markActiveContextTab = function() {
+        var self = this;
+        this.elemContextTabs.children("button").each(function() {
+            var active = $(this).attr("data-context") === self.selectedContext;
+            $(this).toggleClass("checked", active).attr("aria-selected", active);
+        });
     };
 
     this._updateKeyboardTypeOptions = function(selected) {

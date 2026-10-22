@@ -10,7 +10,7 @@
 
     <title>Live for Speed keyboard shortcuts</title>
 
-    <link href="content/stylesheets/style.css?v=4" rel="stylesheet">
+    <link href="content/stylesheets/style.css?v=5" rel="stylesheet">
 
     <script src="content/javascripts/jquery-2.0.3.min.js"></script>
     <script src="content/javascripts/jquery-ui-1.9.2.min.js"></script>
@@ -20,7 +20,7 @@
     <script src="content/generated/apps.js?v=3"></script>
     <script src="content/javascripts/utils.js?v=3"></script>
     <script src="content/javascripts/keyboard.js?v=3"></script>
-    <script src="content/javascripts/manager.js?v=3"></script>
+    <script src="content/javascripts/manager.js?v=4"></script>
 
     <script type="text/javascript">
     $(function() {
@@ -52,9 +52,6 @@
                    </select>
                </div>
                <div class="inputgroup">
-                   <select id="context_select" name="context_select" class="chosen-select"></select>
-               </div>
-               <div class="inputgroup">
                    <select id="keyboardtype_select" name="keyboardtype_select" class="chosen-select keyboard-select"></select>
                </div>
            </nav>
@@ -62,6 +59,7 @@
 
        <div id="content">
            <div id="contentwrap">
+               <div id="context_tabs" role="tablist"></div>
                <div id="keycontent"></div>
                <div id="othercontent">
                    <div id="keyinfo"></div>

@@ -122,6 +122,22 @@ header p {
     height: 372px;
 }
 
+#context_tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+#context_tabs button {
+    cursor: pointer;
+}
+
+#context_tabs button.checked {
+    color: #303030;
+}
+
 #othercontent {
     position: relative;
     margin-top: 40px;
@@ -151,6 +167,7 @@ header p {
 /* Common input styles ******/
 
 nav input, nav button,
+#context_tabs button,
 nav .chosen-container-single .chosen-single,
 #searchbox input {
     position: relative;
@@ -173,6 +190,7 @@ nav .chosen-container-single .chosen-single,
 }
 .chosen-container-active.chosen-with-drop .chosen-single,
 nav button.checked,
+#context_tabs button.checked,
 #searchbox input:focus,
 #searchbox input.active {
     outline: none;
@@ -226,7 +244,6 @@ nav .inputgroup .rightfield .chosen-single {
 
 #application_select { width: 180px; }
 #version_select { width: 75px; }
-#context_select { width: 260px; }
 #keyboardtype_select { width: 175px; }
 
 nav .chosen-container-single.keyboard-select .chosen-single {
